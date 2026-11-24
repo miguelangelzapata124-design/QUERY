@@ -21,12 +21,12 @@
             <legend>Información de la mascota</legend>
 
             <label>Nombre de la mascota:</label>
-            <input type="text" name="nombre">
+            <input type="text" name="nombre" required>
 
             <br>
 
             <label>Especie:</label>
-            <select name="especie" >
+            <select name="especie" required>
                 <option value="">Seleccione</option>
                 <option value="Perro">Perro</option>
                 <option value="Gato">Gato</option>
@@ -38,13 +38,13 @@
             <br>
 
             <label>Raza:</label>
-            <input type="text" name="raza">
+            <input type="text" name="raza" required>
 
             <br>
 
             <label>Sexo:</label>
 
-            <input type="radio" name="sexo" value="Macho">
+            <input type="radio" name="sexo" value="Macho" required>
             Macho
 
             <input type="radio" name="sexo" value="Hembra">
@@ -53,27 +53,27 @@
             <br>
 
             <label>Fecha de nacimiento:</label>
-            <input type="date" name="fechaNacimiento">
+            <input type="date" name="fechaNacimiento" required>
 
             <br>
 
             <label>Edad aproximada (años):</label>
-            <input type="number" name="edad" min="0">
+            <input type="number" name="edad" min="0" required>
 
             <br>
 
             <label>Color:</label>
-            <input type="text" name="color">
+            <input type="text" name="color" required>
 
             <br>
 
             <label>Peso (kg):</label>
-            <input type="number" name="peso" step="0.1" min="0">
+            <input type="number" name="peso" step="0.1" min="0" required>
 
             <br>
 
             <label>Tipo de alimentación:</label>
-            <select name="alimentacion">
+            <select name="alimentacion" required>
                 <option value="">Seleccione</option>
                 <option value="Concentrado">Concentrado</option>
                 <option value="Natural">Natural</option>
@@ -89,7 +89,7 @@
 
             <label>¿Tiene vacunas al día?</label>
 
-            <input type="radio" name="vacunas" value="Sí">
+            <input type="radio" name="vacunas" value="Sí" required>
             Sí
 
             <input type="radio" name="vacunas" value="No">
@@ -99,7 +99,7 @@
 
             <label>¿Está esterilizada?</label>
 
-            <input type="radio" name="esterilizada" value="Sí">
+            <input type="radio" name="esterilizada" value="Sí" required>
             Sí
 
             <input type="radio" name="esterilizada" value="No">
@@ -122,32 +122,32 @@
             <legend>Información del propietario</legend>
 
             <label>Nombre del propietario:</label>
-            <input type="text" name="propietario">
+            <input type="text" name="propietario" required>
 
             <br>
 
             <label>Documento de identidad:</label>
-            <input type="number" name="documento">
+            <input type="number" name="documento" required>
 
             <br>
 
             <label>Correo electrónico:</label>
-            <input type="email" name="correo">
+            <input type="email" name="correo" required>
 
             <br>
 
             <label>Teléfono:</label>
-            <input type="tel" name="telefono">
+            <input type="tel" name="telefono" required>
 
             <br>
 
             <label>Dirección:</label>
-            <input type="text" name="direccion">
+            <input type="text" name="direccion" required>
 
             <br>
 
             <label>Ciudad:</label>
-            <input type="text" name="ciudad">
+            <input type="text" name="ciudad" required>
 
         </fieldset>
 
@@ -158,7 +158,7 @@
 
             <label>¿Cómo llegó la mascota al hogar?</label>
 
-            <select name="origen">
+            <select name="origen" required>
                 <option value="">Seleccione</option>
                 <option value="Adopción">Adopción</option>
                 <option value="Compra">Compra</option>
@@ -197,7 +197,7 @@
 
             <br>
 
-            <input type="checkbox" name="acepta" value="Sí">
+            <input type="checkbox" name="acepta" value="Sí" required>
             Acepto el tratamiento de datos.
 
         </fieldset>
@@ -229,7 +229,7 @@
 
 
 
-    <script src="JS/app2.js"></script>
+    <script src="js/app2.js"></script>
 
 </body>
 </html>
